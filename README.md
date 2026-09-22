@@ -42,7 +42,7 @@ Full per-epoch loss and validation history is in `history.json`.
 
 ## How to run
 
-1. Open `pancreas_scan_final.ipynb` on [Kaggle](https://www.kaggle.com).
+1. Open `pancreas_scan_final-3.ipynb` on [Kaggle](https://www.kaggle.com).
 2. Add the Task07 Pancreas dataset as an input.
 3. Set Accelerator to **GPU T4**.
 4. Run all cells. Cell 1 checks the GPU and installs MONAI, cell 2 verifies the data, cell 3 trains and saves checkpoints to `/kaggle/working`.
