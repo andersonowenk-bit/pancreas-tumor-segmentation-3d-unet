@@ -26,6 +26,12 @@ Dice measures overlap between the predicted and true segmentation (1.0 is a perf
 
 Full per-epoch loss and validation history is in `history.json`.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andersonowenk-bit/pancreas-tumor-segmentation-3d-unet/main/images/dice-by-epoch-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/andersonowenk-bit/pancreas-tumor-segmentation-3d-unet/main/images/dice-by-epoch-light.svg" />
+  <img alt="Validation Dice by epoch. Pancreas climbs from 0.33 to 0.61 over 30 epochs; tumor stays near 0.015." src="https://raw.githubusercontent.com/andersonowenk-bit/pancreas-tumor-segmentation-3d-unet/main/images/dice-by-epoch-light.svg" />
+</picture>
+
 ## How it works
 
 **Data.** 281 portal venous phase CT scans with voxel labels (0 background, 1 pancreas, 2 tumor). Split: 250 training, 31 validation.
